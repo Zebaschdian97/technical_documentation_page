@@ -1,0 +1,223 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial;
+      padding: 10px;
+      background: #f1f1f1;
+    }
+
+    /* Header/Blog Title */
+    .header {
+      padding: 30px;
+      text-align: center;
+      background: white;
+    }
+
+    .header h1 {
+      font-size: 50px;
+    }
+
+    /* Style the top navigation bar */
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    /* Style the topnav links */
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    /* Change color on hover */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    /* Create two unequal columns that floats next to each other */
+    /* Left column */
+    .leftcolumn {
+      float: left;
+      width: 25%;
+    }
+
+    /* Right column */
+    .rightcolumn {
+      float: left;
+      width: 75%;
+      background-color: #f1f1f1;
+      padding-left: 20px;
+    }
+
+    /* Fake image */
+    .fakeimg {
+      background-color: #aaa;
+      width: 100%;
+      padding: 20px;
+    }
+
+    /* Add a card effect for articles */
+    .card {
+      background-color: white;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Footer */
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: #ddd;
+      margin-top: 20px;
+    }
+
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 800px) {
+      .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+      }
+    }
+
+    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+    @media screen and (max-width: 400px) {
+      .topnav a {
+        float: none;
+        width: 100%;
+      }
+    }
+    </style>
+  </head>
+  <body>
+
+
+
+
+  <div class="row">
+    <div class="leftcolumn">
+      <div class="card">
+        <nav class="topnav" id="navbar">
+          <header>
+            What you can learn:
+            </header>
+
+            <a href="#Listen_to_the_Printer!!" class="nav-link">
+             Listen to the Printer!!
+            </a>
+
+
+            <a href="#Be_careful!!" class="nav-link">
+            Be careful!!
+            </a>
+
+
+            <a href="#do_not_touch_everything!!" class="nav-link">
+            Do not touch everything!!
+            </a>
+
+
+            <a href="#Be_confident!!" class="nav-link">
+            Be confident!!
+            </a>
+
+            <a href="#But_not_to_confident!!" class="nav-link">
+            But not to confident!!
+            </a>
+
+
+
+
+        </nav>
+      </div>
+
+    </div>
+
+    <div class="rightcolumn">
+
+      <div class="header">
+        <h1>How to Repair a Printer</h1>
+
+
+      </div>
+
+      <main id="main-doc">
+        <div class="card">
+          <section class="main-section" id="Listen_to_the_Printer!!">
+            <header>Listen to the Printer!!</header>
+            <code>Don't do something what the Printer doesn't want you to do!</code>
+            <ol>
+                <li>Is the Printer making noises?</li>
+                <li>Has the Printer some messanges?</li>
+                <li>Can you see some codes?</li>
+                <li>Is th Printer blinking?</li>
+                <li>FIRE?</li>
+            </ol>
+
+            <p>Just don't be stupid!</p>
+
+            </section>
+        </div>
+        <div class="card">
+          <section class="main-section" id="Be_careful!!">
+            <header>Be careful!!</header>
+            <code>You can damage things!</code>
+
+            <p>Just be careful!</p>
+            </section>
+        </div>
+        <div class="card">
+          <section class="main-section" id="do_not_touch_everything!!">
+            <header>Do not touch everything!!</header>
+            <code>The printer is sensitive!</code>
+
+            <p>If you have to touch him, please be gentle</p>
+            </section>
+        </div>
+        <div class="card">
+          <section class="main-section" id="Be_confident!!">
+            <header>Be confident!!</header>
+            <code>You can do it!</code>
+
+            <p>It's just a machine</p>
+            </section>
+        </div>
+        <div class="card">
+          <section class="main-section" id="But_not_to_confident!!">
+            <header>But not to confident!!</header>
+            <code>Or maybe not!</code>
+            <p>At least you tried</p>
+          </section>
+        </div>
+
+      </main>
+
+
+    </div>
+  </div>
+
+  
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+  </body>
+</html>
